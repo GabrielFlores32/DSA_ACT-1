@@ -18,4 +18,4 @@ elif conversion == 2:
     print(f"{temperature}°C is equal to {fahrenheit}°F.")
     
 else:
-    print("Invalid choice. Please select 1 or 2.")
+    print("Invalid choice. Please select 1 or 2.") 
