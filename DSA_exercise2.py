@@ -6,20 +6,20 @@ print ("3 = Current calculator")
 choice = int(input("Betlog?: "))
 
 if choice == 1 :
-    resistance = int(input("Resistance: "))
-    current = int(input("Current: "))
+    resistance = float(input("Resistance: "))
+    current = float(input("Current: "))
     answer = resistance*current
     print(f"The Voltage is {answer}")
 
 elif choice == 2 :
-    voltage = int(input("Voltage: "))
-    current = int(input("Current: "))
+    voltage = float(input("Voltage: "))
+    current = float(input("Current: "))
     answer = voltage/current
     print(f"The Resistance is {answer}")
     
 elif choice == 3 :
-    voltage = int(input("Voltage: "))
-    resistance = int(input("Resistance: "))
+    voltage = float(input("Voltage: "))
+    resistance = float(input("Resistance: "))
     answer = voltage/resistance
     print(f"The Resistance is {answer}")
     
