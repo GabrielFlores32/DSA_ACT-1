@@ -5,7 +5,7 @@ temperature = float(input("Enter the value of the temperature: "))
 
 #Ask the user to select the conversion type
 print("select the type of conversion:")
-print("Type 1 for Celsius and type 2 for Fahrenheit")
+print("Type 1 for Celsius to Fahrenheit and type 2 for Fahrenheit to Celsius")
 conversion = int(input("Enter your choice: "))
 
 #Perform the appropriate conversion and print the result.
